@@ -1,0 +1,54 @@
+         
+                  
+                 
+         .btn-grad {
+          background-image: linear-gradient(to right, #16BFFD 0%, #CB3066  51%, #16BFFD  100%);
+          margin: 10px;
+          padding: 15px 45px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          box-shadow: 0 0 20px #eee;
+          border-radius: 10px;
+          display: block;
+        }
+
+        .btn-grad:hover {
+          background-position: right center; /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+        }
+       
+       
+         
+          canvas {
+            animation-name: demoBox;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            border: 5px solid white;
+            margin-top: 50px;
+            border-radius: 20px;
+            
+          }
+
+          @keyframes demoBox {
+            from {
+                box-shadow: 10px 10px 10px magenta;
+            }
+            25% {
+                box-shadow: -10px 10px 10px teal;
+            }
+            50% {
+                box-shadow: -10px -10px 10px purple;
+            }
+            to {
+                box-shadow: 10px -10px 10px orangered;
+            }
+          }
+
+          .btn-primary:hover 
+          {
+            background-color: rebeccapurple ;
+          }
